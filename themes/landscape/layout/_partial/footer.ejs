@@ -4,7 +4,7 @@
   <% } %>
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; <%= date(new Date(), 'YYYY') %> - 永远，爱你的 <%= config.author || config.title %><br>
+      &copy; <%= date(new Date(), 'YYYY') %> - 永远。爱你 <%= 1 + (new Date() - new Date(2016, 11, 2)) / 86400000 | 0 %> 天的<%= config.author || config.title %><br>
     </div>
   </div>
 </footer>

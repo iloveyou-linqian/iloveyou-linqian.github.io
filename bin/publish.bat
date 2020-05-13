@@ -1,6 +1,6 @@
 @echo off
 cd ..
-set /p commit_msg=Commit message:
+set /p commit_msg=Commit message: 
 
 git add .
 git commit -m "%commit_msg%"

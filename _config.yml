@@ -7,13 +7,13 @@ title: I love you
 subtitle: '子标题'
 description: '描述'
 keywords: 't1,2t,34'
-author: cheer 
+author: 萤火虫
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://iloveyou-linqian.github.io/
 root: /
 permalink: :year-:month-:day/:title.html
 permalink_defaults:
