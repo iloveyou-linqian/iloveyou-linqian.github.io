@@ -100,3 +100,7 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/iloveyou-linqian/iloveyou-linqian.github.io
+
+# HTMLMinifier configuration
+html_minifier:
+  exclude: 
