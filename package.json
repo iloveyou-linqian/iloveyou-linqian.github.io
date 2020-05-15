@@ -1,5 +1,5 @@
 {
-  "name": "hexo-site",
+  "name": "iloveyou-linqian",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -25,6 +25,7 @@
     "hexo-server": "^1.0.0"
   },
   "devDependencies": {
+    "axios": "^0.19.2",
     "concurrently": "^5.2.0"
   }
 }
