@@ -10,6 +10,11 @@
         <%- partial('post/title', {class_name: 'article-title'}) %>
       </header>
     <% } %>
+    <div class="article-meta">
+      <span>萤火虫</span>
+      <span>&#12288;</span>
+      <span><%= date(post.date, 'HH:mm:ss') %></span>
+    </div>
     <div class="article-entry" itemprop="articleBody">
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>
