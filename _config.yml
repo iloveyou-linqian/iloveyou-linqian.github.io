@@ -95,6 +95,13 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
+aplayer:
+  cdn: //cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.js
+  style_cdn: //cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.css
+  meting_cdn: //cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js
+  meting: true # 启用 MeingJS 支持
+  asset_inject: false
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
