@@ -95,6 +95,9 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
+theme_config:
+  baidu_tongji: e590bc7a12ef0d4e1de8df5d0e59aa6c
+
 aplayer:
   cdn: //cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.js
   style_cdn: //cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.css
